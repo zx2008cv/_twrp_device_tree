@@ -7,10 +7,6 @@ on:
         description: 'IMG_URL'
         required: true
         default: ''
-steps:
-- uses: actions/setup-python@v2
-  with:
-    python-version: '3.x'
     
 jobs:
   build:
