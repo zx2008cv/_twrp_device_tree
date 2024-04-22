@@ -1,5 +1,4 @@
 name: Make TWRP Device
-steps:
     
 on:
   workflow_dispatch:
