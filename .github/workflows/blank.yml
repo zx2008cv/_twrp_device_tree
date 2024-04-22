@@ -22,6 +22,9 @@ jobs:
         sudo apt update
         sudo apt -y install python python3 python-pip python3-pip cpio wget
         pip3 install twrpdtgen
+        - uses: actions/setup-python@v2
+  with:
+    python-version: '3.x'
         mkdir dt
       
     - name: Download boot or recovery img
